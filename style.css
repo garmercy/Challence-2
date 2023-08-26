@@ -17,7 +17,7 @@ p{ font-size: 1.25em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
-header{
+.main-header{
     background-color: rgb(252, 121, 153);
     padding: 2%;
     position: fixed;
@@ -29,10 +29,10 @@ header{
   
 }
 
-header h1{
+.main-header h1{
     display: inline-block;
 }
-.container-header{
+.container-main-header{
     flex-direction: row;
     padding-top: 15px;
     margin-right: 20px;
@@ -94,3 +94,49 @@ a{
     cursor: pointer;
     box-shadow:5px 5px 3px rgba(245, 240, 240, 0.6)
 }
+main {
+    display: flex;
+    /* nueva option de la clase flex wrap */
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    
+  }
+  section{
+    display: block;
+  }
+  .card img{
+    width: 100%;
+    min-width: 400px;
+    
+   
+  }
+  .card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+}
+  
+@media screen and (max-width:992px){
+    /* .card{
+        width: 100%;
+    } */
+    header{
+        background-color: #772014;
+    }
+  }
+  @media screen and (max-width:768px){
+    .card{
+        width: 100%;
+    }
+    header{
+        background-color: #4a9be6;
+    }
+  }
+  
