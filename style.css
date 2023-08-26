@@ -7,7 +7,7 @@ html{
    scroll-behavior: smooth;
 }
 body{
-    font-family: 'Bellefair', serif;
+    font-family: 'Gabriela', serif;
     margin: 0;
 }
 h1{ font-size: 2.7em;}
@@ -16,27 +16,42 @@ h3{ font-size: 1.7em;}
 p{ font-size: 1.25em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
+
 header{
     background-color: rgb(252, 121, 153);
     padding: 2%;
     position: fixed;
     width: 100%;
-    
+    display: block;  
+    background: linear-gradient(to top, rgb(243, 47, 96), 35%,rgb(252, 121, 153) );
+    border-bottom: rgb(255, 29, 85) 15px;
+    border-bottom-style:ridge;
+  
+}
+
+header h1{
+    display: inline-block;
 }
 .container-header{
     flex-direction: row;
-    justify-content: space-between;
-    
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
 }
-.nav{
-    flex-direction: row;
-    padding-bottom: 0;
+
+.links{
     padding-right: 20px;
-    display:list-item;
+    float:right;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    
+    padding-inline-start: 40px;
 }
+
 a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
-}
+} 
