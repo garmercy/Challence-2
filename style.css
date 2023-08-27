@@ -131,16 +131,16 @@ section{
     padding: 20px;
     background: rgb(243, 47, 96);
     color: #fff;
-    border-radius: 0 20px;
+    border-radius: 0px 20px;
     
 }
 /* .header:hover{
     box-shadow: 10px 10px 5px 10px;
     
 } */
-.card img:hover{
-    /* box-shadow: 10px 10px 5px; */
-}
+/* .card img:hover{
+    box-shadow: 10px 10px 5px;
+} */
 @media screen and (max-width:992px){
     header{
         background-color: #772014;
