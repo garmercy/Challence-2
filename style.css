@@ -24,8 +24,8 @@ li{ font-size: 1.25em;}
     width: 100%;
     display: block;  
     background: linear-gradient(to top, rgb(243, 47, 96), 35%,rgb(252, 121, 153) );
-    /* border-bottom: rgb(255, 29, 85) 15px;
-    border-bottom-style:ridge; */
+    border-bottom: rgb(255, 29, 85) 15px;
+    border-bottom-style:ridge;
   
 }
 
@@ -103,13 +103,18 @@ a{
   }
 .card {
     flex: 0 0 300px;
-    border-style: solid;
+    /* border-style: solid; */
     border-width: 1px;
     padding: 10px;
     margin: 20px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 5px;
+    /* border-radius: 20px; */
     justify-content: center;
+    padding: 30px;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow:10px 10px 5px;
+    border-radius: 20px;
 }
 section{
     display: block;
@@ -119,11 +124,22 @@ section{
     /* The client insists that images be at least 400px */
     min-width: 250px;
     max-height: 350px;
+    border-radius: 20px 0px 20px 0px;
+    border: solid rgb(243, 47, 96) 5px;
 }
 .card header {
     padding: 20px;
-    background: #13293d;
+    background: rgb(243, 47, 96);
     color: #fff;
+    border-radius: 0 20px;
+    
+}
+/* .header:hover{
+    box-shadow: 10px 10px 5px 10px;
+    
+} */
+.card img:hover{
+    /* box-shadow: 10px 10px 5px; */
 }
 @media screen and (max-width:992px){
     header{
