@@ -91,21 +91,9 @@ a{
     cursor: pointer;
     box-shadow:5px 5px 3px rgba(245, 240, 240, 0.6)
 }
-#title-produts{
-    background: linear-gradient(to top, rgb(243, 47, 96), 35%,rgb(252, 121, 153) );
-    justify-content: center;
-    padding: 50px;
-    display: flex;
-    border-bottom: rgb(243, 47, 96) 15px;
-    border-bottom-style:dotted;
-    
-    font-size: 30px;
-}
 #About{ 
         background: linear-gradient(to top, white , 35%,rgb(252, 121, 153) );
 
-        border-bottom: rgb(252, 121, 153) 15px;
-        border-bottom-style:dotted;
         justify-content: center;
         padding: 50px;
         display: flex;
@@ -132,14 +120,36 @@ a{
     padding-top: 10px;
     margin-top: 50px;
 }
+.text-about h2{
+    font-size: 60px;
+}
+#title-produts{
+    background: rgb(252, 121, 153);
+    justify-content: center;
+    padding-top:100px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    display: flex;
+    color: black;
+    /* border-bottom: rgb(243, 47, 96) 15px;
+    border-bottom-style:dotted; */
+    
+    
+}
+
 .products {
-    background-color: rgb(248, 160, 189);
+    background-color: rgb(252, 121, 153);
     display: flex;
     flex-wrap: wrap;
     position: center;
     justify-content: center;
     padding: 0px;
   }
+.text-products{
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
 .card {
     flex: 0 0 300px;
     /* border-style: solid; */
@@ -168,12 +178,6 @@ a{
     border-radius: 0px 20px;
     font-size: 25px;
     text-align: center;
-}
-
-.text-products{
-    padding-top: 20px;
-    text-align: justify;
-    font-size: 20px;
 }
 #header-argentinian{
     padding:20px;
