@@ -10,13 +10,6 @@ body{
     font-family: 'Gabriela', serif;
     margin: 0;
 }
-h1{ font-size: 2.7em;}
-h2{ font-size: 2em;}
-h3{ font-size: 1.7em;}
-p{ font-size: 1.25em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
-
 .main-header{
     background-color: rgb(252, 121, 153);
     padding:0px 50px 10px;
@@ -26,9 +19,7 @@ li{ font-size: 1.25em;}
     background: linear-gradient(to top, rgb(243, 47, 96), 35%,rgb(252, 121, 153) );
     border-bottom: rgb(255, 29, 85) 15px;
     border-bottom-style:ridge;
-  
 }
-
 .main-header h1{
     display: inline-block;
     font-size: 30px;
@@ -40,20 +31,20 @@ li{ font-size: 1.25em;}
     /* margin-right: 20px; */
     font-size: 20px;
 }
-
 .links{
     /* padding-right: 20px; */
     float:right;
     margin-block-start: 1em;
     padding-inline-start: 40px;
 }
-
 a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
 } 
+
+
 #hero{
     /* display: block;
     oculte el display block */
@@ -82,13 +73,17 @@ a{
     
 }
 #hero button{
-    font-size: 20px;
-    padding: 10px;
+    font-size: 30px;
+    padding: 15px;
     border-radius: 15px;
     margin-top: 3%;
     color: black;
     background-color: palevioletred;
     border: none;
+    font-family: 'Gabriela', serif;
+}
+#hero h1{
+    font-size: 70px;
 }
 #hero button:hover{
     color: white;
@@ -96,6 +91,17 @@ a{
     cursor: pointer;
     box-shadow:5px 5px 3px rgba(245, 240, 240, 0.6)
 }
+.title-produts{
+    background: linear-gradient(to top, rgb(243, 47, 96), 35%,rgb(252, 121, 153) );
+    justify-content: center;
+    padding: 50px;
+    display: flex;
+    border-bottom: rgb(243, 47, 96) 15px;
+    border-bottom-style:dotted;
+    font-size: 30px;
+}
+
+
 .products {
     background-color: rgb(248, 160, 189);
     display: flex;
@@ -108,9 +114,7 @@ a{
     flex: 0 0 300px;
     /* border-style: solid; */
     border-width: 1px;
-    padding: 10px;
     margin: 20px;
-    /* border-radius: 20px; */
     justify-content: center;
     padding: 30px;
 }
@@ -118,9 +122,6 @@ a{
     cursor: pointer;
     box-shadow:7px 7px 7px rgb(243, 47, 96);
     border-radius: 20px;
-}
-section{
-    display: block;
 }
 .card img{
     width: 100%;
@@ -133,19 +134,16 @@ section{
 .card header {
     padding: 20px;
     background: rgb(243, 47, 96);
-    color: #fff;
+    color: black;
     border-radius: 0px 20px;
-    
+    font-size: 35px;
+    text-align: center;
 }
-.title-produts{
-    background: linear-gradient(to top, rgb(243, 47, 96), 35%,rgb(252, 121, 153) );
-    justify-content: center;
-    padding: 50px;
-    display: flex;
-    border-bottom: rgb(243, 47, 96) 15px;
-    border-bottom-style:dotted;
-    font-size: 30px;
+.text-products{
+    padding-top: 20px;
+    text-align: justify;
 }
+
 
 @media screen and (max-width:992px){
     header{
