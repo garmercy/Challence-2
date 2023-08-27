@@ -166,14 +166,21 @@ a{
     background: rgb(243, 47, 96);
     color: black;
     border-radius: 0px 20px;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
 }
+
 .text-products{
     padding-top: 20px;
     text-align: justify;
+    font-size: 20px;
 }
-
+#header-argentinian{
+    padding:20px;
+    text-align: justify;
+    font-size: 21px;
+    
+}
 
 @media screen and (max-width:992px){
     header{
