@@ -33,6 +33,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock-Up
 The following animation shows the web application's appearance and functionality:
+![02-advanced-css-homework-demo (2)](https://github.com/garmercy/Challence-2/assets/138730100/c7a1faf6-9a73-4a5c-bece-8ef2e7961f38)
+
 
 ## Grading Requirements
 
