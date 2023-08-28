@@ -17,8 +17,6 @@ body{
     width: 100%;
     display: block;  
     background: linear-gradient(to top, rgb(243, 47, 96), 35%,rgb(252, 121, 153) );
-    /* border-bottom: rgb(255, 29, 85) 15px;
-    border-bottom-style:ridge; */
 }
 .main-header h1{
     display: inline-block;
@@ -184,7 +182,6 @@ a{
     font-size: 21px; 
 }
 #contact{
-    background-color: whitesmoke;
     justify-content: center;
     padding-top:100px;
     padding-bottom: 50px;
@@ -321,3 +318,43 @@ input[type=submit]:hover {
     padding: 5px;
     margin-top: 13px;
 }
+#footer {
+text-align: center;
+padding: 20px;
+padding-bottom: 50px;
+}
+   
+@media only screen and (max-width: 1200px)  { 
+    .photo-about{
+        display: none;
+    }
+    .contact-box{
+    display: flex;
+    flex-direction:column;
+    }
+    .location{
+        width: 100%;
+    }
+    .container-form{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 750px) { 
+    .container-main-header{
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+    }
+
+    .links{
+    line-height: 2;
+    } 
+
+
+    #About{
+        padding: 20px;
+    }
+
+}
+ 
