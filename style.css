@@ -143,9 +143,10 @@ a{
     padding: 0px;
   }
 .text-products{
-    padding-top: 20px;
-    text-align: justify;
+    
+    text-align:left;
     font-size: 20px;
+    
 }
 .card {
     flex: 0 0 300px;
@@ -164,9 +165,10 @@ a{
     width: 100%;
     /* The client insists that images be at least 400px */
     min-width: 250px;
-    max-height: 350px;
+    max-height: 300px;
     border-radius: 20px 0px 20px 0px;
     border: solid rgb(243, 47, 96) 5px;
+    margin-bottom: 20px;
 }
 .card header {
     padding: 20px;
@@ -319,4 +321,3 @@ input[type=submit]:hover {
     padding: 5px;
     margin-top: 13px;
 }
-  
