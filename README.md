@@ -33,6 +33,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock-Up
 The following animation shows the web application's appearance and functionality:
+![02-advanced-css-homework-demo (2)](https://github.com/garmercy/Challence-2/assets/138730100/c7a1faf6-9a73-4a5c-bece-8ef2e7961f38)
+
 
 ## Grading Requirements
 
@@ -74,6 +76,11 @@ You are required to submit BOTH of the following for review:
 * The URL of the deployed application.
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
-## ## References
+## References
 * Bootcamp University of Sydney
-* 
+* choidavid4 (software developer and content creator)
+* Google fonts
+* Icons: https://www.flaticon.com/free-icons/map
+* Images (free copyright): https://unsplash.com/es/s/fotos/comiendo-dulces
+* CSS Form sample: https://www.w3schools.com/css/css_form.asp
+  
