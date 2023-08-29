@@ -3,17 +3,17 @@
 I created this web application portfolio of a chef-cake designer with not starting codes.
 The goals of this project are:
 
-* Create an online presence.
-* Showcase of products and services to potential customers.
-* Establish the brand.
-* Increase sales and revenues.
-* Allow potential customers to find the company.
+*Create an online presence.
+*Showcase of products and services to potential customers.
+*Establish the brand.
+*Increase sales and revenues.
+*Allow potential customers to find the company.
 
 ## User Story
 
-| AS AN employer
+_AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position |
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position_
 
 ## Acceptance Criteria
 
