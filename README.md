@@ -49,7 +49,7 @@ Here are the critical requirements necessary to develop the portfolio :
 * THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Link to the website
-[Flavia Aguirre chef-cake designer]:(https://garmercy.github.io/Flavia-Aguirre-Challence-2/)
+[Flavia Aguirre chef-cake designer](https://garmercy.github.io/Flavia-Aguirre-Challence-2/)
 
 ## References
 * Bootcamp University of Sydney
