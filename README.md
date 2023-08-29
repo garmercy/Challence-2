@@ -18,7 +18,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+Here are the critical requirements necessary to develop a portfolio :
 
 * GIVEN I need to sample a potential employee's previous work
 * WHEN I load their portfolio
@@ -34,10 +34,19 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 * WHEN I resize the page or view the site on various screens and devices
 * THEN I am presented with a responsive layout that adapts to my viewport
 
-## Mock-Up
-The following animation shows the web application's appearance and functionality:
-![02-advanced-css-homework-demo (2)](https://github.com/garmercy/Challence-2/assets/138730100/c7a1faf6-9a73-4a5c-bece-8ef2e7961f38)
+## How is it looks?
 
+### Desktop
+![Desktop](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/4119e3db-a9d4-481c-aa18-0a71c5150297)
+![about-us](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/d929018a-4886-40dd-98db-9ceadf3b8e25)
+
+### Tablet
+![tablet](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/e5741213-f8d9-4930-8db2-d1d31cc178d1)
+![about-us-tablet](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/81fef5dd-20f0-4105-b6fb-87995c5fe509)
+
+### Mobile
+![mobile](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/a1f9e0e7-34c7-42f4-b0d5-7870b0854484)
+![about-us-mobile](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/79013a3c-ad05-4ec7-98ba-e9b9ffefa1a4)
 
 ## Grading Requirements
 
