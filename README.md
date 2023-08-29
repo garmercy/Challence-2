@@ -53,7 +53,7 @@ Here are the critical requirements necessary to develop the portfolio :
 
 ## References
 * Bootcamp University of Sydney
-* choidavid4 (software developer and content creator)
+* choidavid4 (software developer and content creator) https://github.com/choidavid4
 * Google fonts
 * Icons: https://www.flaticon.com/free-icons/map
 * Images (free copyright): https://unsplash.com/es/s/fotos/comiendo-dulces
