@@ -12,7 +12,7 @@ The goals of this project are:
 ## User Story
 
 AS AN employer:
-*_I WANT to view a potential employee's deployed portfolio of work samples
+* _I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position_
 
 ## Acceptance Criteria
