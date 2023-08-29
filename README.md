@@ -3,11 +3,11 @@
 I created this web application portfolio of a chef-cake designer with not starting codes.
 The goals of this project are:
 
-*Create an online presence.
-*Showcase of products and services to potential customers.
-*Establish the brand.
-*Increase sales and revenues.
-*Allow potential customers to find the company.
+* Create an online presence.
+* Showcase of products and services to potential customers.
+* Establish the brand.
+* Increase sales and revenues.
+* Allow potential customers to find the company.
 
 ## User Story
 
