@@ -8,7 +8,7 @@ The goals of this project are:
 * Establish the brand.
 * Increase sales and revenues.
 * Allow potential customers to find the company.
-* Create the website according to the client's requirements (font style, colors, website structure..)
+* Create the website according to the client's requirements (font style,logo, colors, website structure..)
 
 ## How is it looks?
 
