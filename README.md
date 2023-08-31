@@ -49,7 +49,7 @@ Here are the critical requirements necessary to develop the portfolio :
 * THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Link to the website
-[Flavia Aguirre Chef-Cake Designer](https://garmercy.github.io/Cristina-Garcia-Portfolio/)
+[Cristina Garcia Portfolio](https://garmercy.github.io/Cristina-Garcia-Portfolio/)
 
 
   
