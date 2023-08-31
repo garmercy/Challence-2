@@ -13,6 +13,7 @@ body{
     margin: 0;
 }
 
+/* This is the header style of the website.*/
 .main-header{
     background-color: rgb(252, 121, 153);
     padding:0px 50px 10px;
@@ -20,46 +21,40 @@ body{
     display: block;  
     background:linear-gradient(to top, orange, orangered); 
 }
-
-.links-main-header:hover{
-    color: rgb(0, 33, 143);
-    font-size: 22px;
-    transition: 0.1;
-   
-}
 .logo{
     display: inline-block;
     font-size: 30px;
     padding-top:10px ;
     display:inline-flex;
 }
-
 .logo p{
     margin-top: 10px;
     padding-left: 15px;
 }
-
 .container-main-header{
     flex-direction: row;
     padding-top: 10px;
     font-size: 20px;
 }
-
 .links{
     float:right;
     margin-block-start: 1em;
     padding-inline-start: 40px;
-    margin-top: 30px;
-    
+    margin-top: 30px;  
 }
-
 a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
 } 
+.links-main-header:hover{
+    color: rgb(0, 33, 143);
+    font-size: 22px;
+    transition: 0.1; 
+}
 
+/* This is the style of the hero, the first main section of the website. */
 #hero{
     color: orange;
     width: 100%;
@@ -79,7 +74,6 @@ a{
     background-repeat: no-repeat;
     background-size: cover; 
 }
-
 #hero button{
     font-size: 30px;
     padding: 15px;
@@ -90,16 +84,16 @@ a{
     border: none;
     font-family: 'Gabriela', serif;
 }
-
 #hero h1{
     font-size: 70px;
 }
-
 #hero button:hover{
     color: white;
     cursor: pointer;
     box-shadow:5px 5px 3px rgba(245, 240, 240, 0.6)
 }
+
+/* This is the second main section of the website */
 #About{ 
     background:linear-gradient(to top, orange, orangered);
     justify-content: center;
@@ -110,7 +104,6 @@ a{
     display: flex;
     font-size: 30px; 
 }
-
 .photo-about{
     background-image: linear-gradient(
       0deg,
@@ -127,15 +120,14 @@ a{
     border-radius: 0px 100px 0px 100px;
     border: solid orangered 10px;   
 }
-
 .text-about{
     text-align: justify;
 }
-
 .text-about h2{
     font-size: 60px;
 }
 
+/* This is the third main section of the website */
 #services-container{
     background:linear-gradient(to top, orange, orangered);
     padding-bottom: 100px;
@@ -159,7 +151,6 @@ a{
     border-radius: 0px 20px;
     background:linear-gradient(to top, orange, rgb(253, 191, 76))
 }
-
 .img-challence{
     border-radius: 0px 100px 0px 100px;
     height: 100%;
@@ -168,13 +159,11 @@ a{
     opacity: 0.7;
     transition: 0.3s;
     border: solid orangered 5px;
-    
 }
 .img-challence:hover{
     opacity: 1;
     box-shadow:10px 10px 10px orangered;
 }
-
 .services {
     display: flex;
     flex-wrap: wrap;
@@ -182,13 +171,10 @@ a{
     justify-content: center;
     padding: 0px;
 }
-
 .text-services{
     text-align:left;
     font-size: 20px;  
 }
-
-
 .card {
     flex: 0 0 300px;
     border-width: 1px;
@@ -198,14 +184,11 @@ a{
     opacity: 0.5;
     transition: 0.3s;
 }
-
 .card:hover{
-    
     box-shadow:7px 7px 7px black;
     border-radius: 20px;
     opacity: 1;
 }
-
 .card img{
     width: 100%;
     min-width: 250px;
@@ -214,7 +197,6 @@ a{
     border: solid orangered 5px;
     margin-bottom: 20px; 
 }
-
 .card header {
     padding: 20px;
     background: black;
@@ -225,6 +207,7 @@ a{
     border: solid orangered 5px;
 }
 
+/* This is the fourth main section of the website */
 #contact{
     justify-content: center;
     padding-top:100px;
@@ -233,7 +216,6 @@ a{
     color: black; 
     background:linear-gradient(to bottom, rgb(253, 191, 76), orange);
 }
-
 #contact h1{
     font-size: 60px;
     display: block;
@@ -241,27 +223,20 @@ a{
     padding-bottom: 30px;
 }
 
+/* This is the div called contact-box that contains two divs:4 divs (container-github), (container-phone), (container-times) and (container-email). 
+Each div contains two more divs, one for the img and the other for text.--> */
 .contact-box{
     display: flex;
     flex-direction: row;
     padding-top: 30px;
     margin-top: 50px;
 }
-
 .location{
     text-align: justify;
     width: 50%;
     padding: 5%;
     background:linear-gradient(to top left, orangered, orange, rgb(253, 191, 76));
 }
-
-.container-contact-info{
-    width: 50%;
-    padding: 5%;
-    background:linear-gradient(to top right, orangered, orange, rgb(253, 191, 76));
-}
-
-
 .container-github{
     background-color: orange;
     margin-bottom: 60px;
@@ -319,6 +294,15 @@ a{
     padding: 5px;
     margin-top: 13px;
 }
+
+/* This is the second div inside contact-box */
+.container-contact-info{
+width: 50%;
+padding: 5%;
+background:linear-gradient(to top right, orangered, orange, rgb(253, 191, 76));
+}
+
+/* This is the footer of the website */
 #footer {
     text-align: center;
     padding: 20px;
@@ -326,6 +310,7 @@ a{
     background:linear-gradient(to top, rgb(253, 191, 76), orange);
 }
    
+/* This style is for tablets or some small desktops */
 @media only screen and (max-width: 1200px)  { 
     .photo-about{
         display: none;
@@ -337,7 +322,7 @@ a{
     .location{
         width: 100%;
     }
-    .container-form{
+    .container-contact-info{
         width: 100%;
     }
     .container-main-header{
@@ -352,18 +337,16 @@ a{
     }
 }
 
+/* This style is for mobiles */
 @media only screen and (max-width: 750px) { 
     .container-main-header{
         flex-direction: column;
         display: flex;
         text-align: center;
     }
-
     .links{
     line-height: 2;
     } 
-
-
     #About{
         padding: 20px;
     }
