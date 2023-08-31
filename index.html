@@ -3,32 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flavia Aguirre</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Cristina Garcia</title>
+    <link rel="stylesheet" href="assets-style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
 <body>
+  <!-- Header of Cristina Garcia, with logo and links -->
   <header class="main-header">
     <div class="container-main-header">
+      <!-- website logo -->
       <a href="#hero" class="logo" >
-        <img class="logo-img" src="Images/Flavia.jpg" alt="Big-cake" />
-        <p>Flavia Aguirre</p>
-       </a>
+        <p>Cristina Garcia</p>
+      </a>
+      <!-- website links that are linked with the sections -->
       <nav class="links">
-        <a href="#hero">Home</a>
-        <a href="#About">About</a>
-        <a href="#title-produts">Products</a>
-        <a href="#contact">Contact</a>
+        <a class="links-main-header" href="#hero">Home</a>
+        <a class="links-main-header" href="#About">About</a>
+        <a class="links-main-header"href="#services-container">Services</a>
+        <a class="links-main-header" href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
+<!-- The main contains all the links sections. In total they are 5 principal sections
+        The first one its the hero
+        Second its about
+        Third is services-container
+        Forth is contact
+        Fith is the footer -->
+
+<main>
+
+  <!-- The fisrt section is the hero and contains a link to Cristina github prophile -->
   <section id="hero">
-    <h1>Chef-Cake Designer</h1>
-    <button onclick="window.location.href='https://www.escoffier.edu/blog/culinary-pastry-careers/how-to-become-a-wedding-cake-designer/';">Read more</button>
+    <h1>Code-Web developer</h1>
+    <button onclick="window.location.href='https://github.com/garmercy';">Read more</button>
   </section>
-  
+
+  <!-- The second section is for presentation and contains img & text-->
   <section id="About">
     <div class="photo-about"></div>
     <div class="text-about">
@@ -38,57 +51,64 @@
     </div>
   </section>
 
-  <section id="title-produts">
-    <h1>Our produts</h1>
-  </section>
+  <!-- This article contains the services title with a principal image that is conected with the website repository inside a div.  -->
+  <!-- Also, the article contains another section about all the services -->
+  <section id="services-container">
+      
+    <h1>Professional Website Developer</h1>
+    <div class="container-img-services">
+      <p>Horiseon website</p>
+      <a href="https://github.com/garmercy" >
+        <img src="assets-style/Images/horiseon.jpg" alt="photo-challence" class="img-challence" />
+      </a>
+    </div>
 
-  <div class="products">
-    <section class="card">
-      <header>Chocolates</header>
-      <img src="Images/chocolates.jpg" alt="Chocolates" />
-      <a class="text-products" href="https://www.outsidenomad.com/argentina-chocolates/">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam debitis eius placeat dignissimos repudiandae? Tenetur nulla ea sit atque hic quae magnam. Esse, rem. Facilis dolorem facere asperiores rerum deleniti!</a>
+    <!-- The section services contains 4 sections. The first one is C, the second javascript, the third HTML and the forth one it's CSS. -->
+    <section class="services">
+
+      <section class="card">
+        <header>C</header>
+        <img src="assets-style/Images/javascript.jpg" alt="photo-C" />
+      </section>
     
+      <section class="card">
+        <header>Java-Script</header>
+        <img src="assets-style/Images/javascript.jpg" alt="photo-JavaScript" />
+      </section>
+
+      <section class="card">
+        <header>HTML</header>
+        <img src="assets-style/Images/javascript.jpg" alt="photo-C" />
+      </section>
+    
+      <section class="card">
+        <header>CSS</header>
+        <img src="assets-style/Images/javascript.jpg" alt="photo-JavaScript" />
+      </section>
+
     </section>
   
-    <section class="card">
-      <header>Cakes</header>
-      <img src="Images/big-cake.jpg" alt="Cake" />
-      <a class="text-products" href="https://www.tasteatlas.com/most-popular-desserts-in-argentina">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam debitis eius placeat dignissimos repudiandae? Tenetur nulla ea sit atque hic quae magnam. Esse, rem. Facilis dolorem facere asperiores rerum deleniti!</a>
-    </section>
+  </section>
 
-    <section class="card">
-      <header id="header-argentinian">Argentinian Cuisine</header>
-      <img src="Images/alfajores.jpg" alt="Alfajores" />
-      <a class="text-products" href="https://yerbamatero.com/en-au/blogs/food-recipes/alfajores-guide-to-south-american-treat#:~:text=As%20the%20etymology%20suggests%2C%20alfajores,almond%20pieces%20rolled%20into%20it.">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam debitis eius placeat dignissimos repudiandae? Tenetur nulla ea sit atque hic quae magnam. Esse, rem. Facilis dolorem facere asperiores rerum deleniti!</a>
-    
-    </section>
-
-    <section class="card">
-      <header>Cupcakes</header>
-      <img src="Images/cupcake-chocolate.jpg" alt="Cupcakes" />
-      <a class="text-products" href="https://www.deliargentina.com/magdalenas-de-dulce-de-leche">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam debitis eius placeat dignissimos repudiandae? Tenetur nulla ea sit atque hic quae magnam. Esse, rem. Facilis dolorem facere asperiores rerum deleniti!</a>
-    
-    </section>
-  </div>
-    
   <section id="contact">
     <h1>Contact us</h1>
     <div class="contact-box">
+
       <div class="location">
         <h3>Let's get in touch</h3>
 
-        <div class="container-addres">
-          <div class="container-addres-icon">
-            <img src="Images/google-maps.png" alt="icon-maps" class="icon"/>
+        <div class="container-github">
+          <div class="container-github-icon">
+            <img src="assets-style/Images/github.png" alt="icon-maps" class="icon"/>
           </div>
-          <div class="container-addres-text">
-            <p>Address: 198 West 21th Street, Suite 721 New York NY 10016</p>
+          <div class="container-github-text">
+            <p>garmercy</p>
           </div>
         </div>
 
         <div class="container-phone">
           <div class="container-icon">
-            <img src="Images/telephone.png" alt="icon-phone" class="icon"/>
+            <img src="assets-style/Images/telephone.png" alt="icon-phone" class="icon"/>
           </div>
           <div class="container-text">
             <p>Phone:<br> +61 00 00 00 00</p>
@@ -97,7 +117,7 @@
 
         <div class="container-times">
           <div class="container-icon">
-            <img src="Images/calendar.png" alt="icon-calendar" class="icon"/>
+            <img src="assets-style/Images/calendar.png" alt="icon-calendar" class="icon"/>
           </div>
           <div class="container-text">
             <p>Opening times:<br>Monday-Friday<br>8:00am - 18:00pm </p>
@@ -106,40 +126,28 @@
 
         <div class="container-email">
           <div class="container-icon">
-            <img src="Images/email.png" alt="icon-email" class="icon" />
+            <img src="assets-style/Images/email.png" alt="icon-email" class="icon" />
           </div>
           <div class="container-text">
-            <p>Email: info@yoursite.com</p>
+            <p>Email: garmercy.mar@gmail.com</p>
           </div>
         </div>
         
       </div>
 
-      <div class="container-form">
-        <form action="action_page.php">
-          <h3>Send us a message</h3>
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Name*">
-          <label for="lname">Phone</label>
-          <input type="text" id="lname" name="phone" placeholder="Phone +61*">
-          <label for="State">State</label>
-          <select id="state" name="state">
-            <option value="australia">NSW</option>
-            <option value="canada">QL</option>
-            <option value="usa">SA</option>
-            <option value="usa">TS</option>
-            <option value="usa">VI</option>
-            <option value="usa">WA</option>
-            <option value="usa">NT</option>
-            <option value="usa">ACT</option>
-          </select>
-          <label for="subject">Message!</label>
-          <textarea id="subject" name="subject" placeholder="Your Message*" style="height:200px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
+      <div class="container-contact-info">
+        <h1>Lorem</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste culpa aliquam autem laborum vero. Ipsam sequi sed numquam modi laboriosam dolores vel aperiam maxime, amet, id itaque, perferendis officiis a.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione porro, incidunt iusto pariatur optio perferendis assumenda odio, consequatur, sed vero similique adipisci vel. Fugit odio aspernatur possimus autem error.
+        </p>
+      </div> 
+
     </div>
+
   </section>
+</main>
 <footer id="footer">
   <h3>
     © Flavia Aguirre 2023   
