@@ -1,28 +1,29 @@
-# :cake: Flavia Aguirre Portfolio :cake:
+# :computer: Cristina Garcia Portfolio :computer:
 
 I created this web application portfolio of a chef-cake designer with not starting codes.
 The goals of this project are:
 
-* Create an online presence.
-* Showcase of products and services to potential customers.
-* Establish the brand.
-* Increase sales and revenues.
-* Allow potential customers to find the company.
-* Create the website according to the client's requirements (font style, logo, colors, website structure..)
+* Showcase my skills and talents to employers looking to fill a part-time or full-time position. 
+* An effective portfolio highlights my strongest work as well as the thought processes behind it. 
+* Create an online presence of my work.
+* Having several deployed projects is a minimum requirement to receive an initial interview at many companies.
 
 ## How is it looks?
 
 ### Desktop
-![Desktop](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/4119e3db-a9d4-481c-aa18-0a71c5150297)
-![about-us](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/d929018a-4886-40dd-98db-9ceadf3b8e25)
+![1](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/d4c889ed-a893-49ee-9567-bdc2923e5735)
+![2](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/8fe9b60e-8efd-4fd8-a090-33ac11d1a7d5)
 
 ### Tablet
-![tablet](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/e5741213-f8d9-4930-8db2-d1d31cc178d1)
-![about-us-tablet](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/81fef5dd-20f0-4105-b6fb-87995c5fe509)
+![5](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/9c730aea-03da-463e-b115-bf25adbfeef4)
+![6](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/9b41bcca-7c3f-4c6a-be01-aaab0e2f7752)
+![7](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/7b5bd5b0-145f-412d-b8be-45cb33620c3e)
 
 ### Mobile
-![mobile](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/a1f9e0e7-34c7-42f4-b0d5-7870b0854484)
-![about-us-mobile](https://github.com/garmercy/Flavia-Aguirre-Challence-2/assets/138730100/79013a3c-ad05-4ec7-98ba-e9b9ffefa1a4)
+![9](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/e5e14f0e-7321-4a89-9ccf-74c0e1d40681)
+![8](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/d238a35c-8042-4ac4-97da-55e39a038cf6)
+![10](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/93060f19-c64a-455f-a0da-d17f6f779082)
+![12](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/96afccf6-659d-419f-a419-7b2353025941)
 
 ## User Story
 
@@ -49,13 +50,7 @@ Here are the critical requirements necessary to develop the portfolio :
 * THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Link to the website
-[Flavia Aguirre Chef-Cake Designer](https://garmercy.github.io/Flavia-Aguirre-Portfolio/)
+[Flavia Aguirre Chef-Cake Designer](https://garmercy.github.io/Cristina-Garcia-Portfolio/)
 
-## References
-* Bootcamp University of Sydney
-* choidavid4 (software developer and content creator) https://github.com/choidavid4
-* Google fonts
-* Icons: https://www.flaticon.com/free-icons/map
-* Images (free copyright): https://unsplash.com/es/s/fotos/comiendo-dulces
-* CSS Form sample: https://www.w3schools.com/css/css_form.asp
+
   
