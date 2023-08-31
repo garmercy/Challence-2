@@ -20,7 +20,6 @@ The goals of this project are:
 ![7](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/7b5bd5b0-145f-412d-b8be-45cb33620c3e)
 
 ### Mobile
-![9](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/e5e14f0e-7321-4a89-9ccf-74c0e1d40681)
 ![8](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/d238a35c-8042-4ac4-97da-55e39a038cf6)
 ![10](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/93060f19-c64a-455f-a0da-d17f6f779082)
 ![12](https://github.com/garmercy/Cristina-Garcia-Portfolio/assets/138730100/96afccf6-659d-419f-a419-7b2353025941)
