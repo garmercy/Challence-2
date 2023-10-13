@@ -1,6 +1,6 @@
 # :computer: Cristina Garcia Portfolio :computer:
 
-I created this web application portfolio of a chef-cake designer with not starting codes.
+I created this web application portfolio with not starting codes.
 The goals of this project are:
 
 * Showcase my skills and talents to employers looking to fill a part-time or full-time position. 
